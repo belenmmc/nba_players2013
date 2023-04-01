@@ -7,6 +7,12 @@ Created on 2 dic. 2020
 NBA 2013
 
 '''
+
+The dataset displays information about the players that were in the nba league in 2013.
+Each line represents a player.
+There are 5 columns, the first one are the names, the second are the positions, the third are the heights, then the weights and finally the ages.
+
+'''
 functions included:
 
 read_players
