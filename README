@@ -3,7 +3,11 @@ Created on 2 dic. 2020
 
 @author: belen
 '''
-NBA2013
+
+NBA 2013
+
+'''
+functions included:
 
 read_players
     The input is a csv file. The function reads the file and returns a list of tuples
