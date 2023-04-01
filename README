@@ -1,0 +1,74 @@
+'''
+Created on 2 dic. 2020
+
+@author: belen
+'''
+NBA2013
+
+read_players
+    The input is a csv file. The function reads the file and returns a list of tuples
+    where every tuple is a line of the csv.
+
+filter_by_position
+    The input is a list of tuples and a position (str). The function returns a
+    list with the players (tuples) of that postion.
+
+calculate_names
+    The input is a list of tuples, and the output is a list with the names of all
+    the players.
+
+players_by_age
+    The input is a list of tuples and a age (int). The output is a list of tuples
+    with every player of that age.
+
+mean_height_by_age
+    The input is a list of tuples and a age (int), being 23 the default value. The
+    output is the mean height of the players of said age.
+
+mean_weight_by_range_age
+    The input is a list of tuples, a start (int) and an end (int), being the default
+    values for them 18 and 40 respectively. The output is the mean weight of the 
+    players whose age is between the start age and the end age.
+
+heaviest_by_position
+    The input is a list of tuples and a position (str). The function creates a list 
+    with the players (tuples) on that position and then returns the player with the 
+    biggest weight.
+
+tallest_by_position
+    The input is a list of tuples, a position (str) and a parameter n, whose default 
+    value is 10. The function creates a list with the players (tuples) on that position,
+    then it sorts the list by the players' height in descending order and returns a list 
+    with the first n players of that list.
+
+dict_by_age
+    The input is a list of tuples, and the function creates a dictionary where the keys
+    are the ages and the values are the players (tuples) of each age.
+
+count_positions
+    The input is a list of tuples, and the function uses Counter to return a dictionary
+    with the positions as keys and the number of players of each position as values.
+
+count_ages
+    The input is a list of tuples, and the function uses Counter to return a dictionary
+    with the ages as keys and the number of players of each age as values.
+
+tallest_by_age
+    The input is a list of tuples, and the function creates a dictionary with the ages
+    as keys and the player with the biggest height as value for each age.
+
+pie_positions
+    The input is a list of tuples, and the function creates a pie chart that represents
+    the percentage of players of each position.
+
+pie_ages
+    The input is a list of tuples and a list of ages. The output is a pie chart that
+    shows the percentage of players of said ages.
+
+bar_positions
+    The input is a list of tuples and the output is a bar chart that shows the amount
+    of players of every position.
+
+bar_ages
+    The input is a list of tuples and the output is a bar chart that shows the amount
+    of players of every age.
